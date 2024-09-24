@@ -1,0 +1,41 @@
+---
+import Button from './Button.astro';
+import siteConfig from '../data/site-config';
+
+const subscribe = siteConfig.subscribe;
+
+const { class: className } = Astro.props;
+---
+
+{
+    subscribe?.formUrl && (
+        <section class:list={['px-8 py-12 flex flex-col items-center border border-dashed border-main text-center sm:px-12 sm:py-16', className]}>
+            {subscribe.title && (
+                <h2 class:list={['w-full max-w-xl text-2xl leading-tight font-serif font-medium sm:text-4xl', subscribe.text ? 'mb-4' : 'mb-8']}>
+                    {subscribe.title}
+                </h2>
+            )}
+            {subscribe.text && <p class="w-full max-w-xl mb-8 text-sm leading-normal">{subscribe.text}</p>}
+            <form
+                action={subscribe.formUrl}
+                method="post"
+                id="subscribe-form"
+                name="subscribe-form"
+                class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-row"
+                target="_blank"
+            >
+            </form>
+
+             <!-- Botón de WhatsApp justo debajo del formulario -->
+    <a href="https://wa.me/72495763?text=Hola,%20me%20interesa%20saber%20más%20sobre%20sus%20servicios.%20¿Podrían%20darme%20más%20información%20por%20favor?" 
+       class="bg-green-500 text-white p-3 rounded-full shadow-lg flex items-center justify-center hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 mt-8"
+       target="_blank" 
+       rel="noopener noreferrer">
+       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6.429V18.57c0 .564.236 1.091.651 1.45l6.518-6.35a1.835 1.835 0 0 0 0-2.77L3.65 4.98A1.455 1.455 0 0 0 3 6.429zM21 6.429v12.142c0 .564-.236 1.091-.651 1.45l-6.518-6.35a1.835 1.835 0 0 0 0-2.77l6.518-6.35c.415.359.651.887.651 1.451z" />
+       </svg>
+       <span class="ml-2">WhatsApp</span>
+    </a>
+        </section>
+    )
+}
