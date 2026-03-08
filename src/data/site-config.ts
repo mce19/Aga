@@ -97,7 +97,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Construyendo tu identidad digital',
-        text: "**Idicr**, te ayuda a construir una identidad digital sólida y profesional. Mi meta es mejorar tu presencia en Google, construyendo una aplicacion web que destaque a tu empresa como un referente en tu comunidad. Descubre cómo puedo ayudarte a construir una identidad digital sólida que genere confianza en tus clientes y haga crecer tu empresa. Explora mis proyectos para ver cómo podemos lograrlo juntos."
+        text: "**Idicr**, te ayuda a construir una identidad digital sólida y profesional. Mi meta es mejorar tu presencia en Google, construyendo una aplicacion web que destaque a tu empresa como un referente en tu comunidad. Descubre cómo puedo ayudarte a construir una identidad digital sólida que genere confianza en tus clientes. Explora mis proyectos para ver cómo podemos lograrlo juntos."
         ,
         image: {
             src: '/Aga/Idicr-paginas-web-costa-rica.webp',

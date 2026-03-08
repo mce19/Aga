@@ -4,13 +4,13 @@ seo:
   title: Sobre mí
   description: conozca más sobre la persona detrás de Idicr y embárquese en un viaje de inspiración y experiencias compartidas.
   image:
-    src: '/Aga/about.jpeg'
+    src: '/Aga/Maykol-idicr-paginas-web.jpg'
     alt: Imagen del fundador y ceo de Idicr
 ---
 
-![Alt text for image](/Aga/about.jpeg)
+<img src="/Aga/Maykol-idicr-paginas-web.jpg" alt="Imagen del fundador y ceo de Idicr" style="width: 300px; height: auto; margin: 0 auto; display: block;" />
 
-¡Hola! Soy Maykol, un ingeniero en sistemas con pasión por el desarrollo de aplicaciones web. Mi meta es ayudar a las empresas a construir una identidad digital que transmita confianza y visibilidad. Por eso, creé Idicr, una marca enfocada en brindar a las empresas la identidad digital que necesitan hoy en día.
+¡Hola! Soy Maykol, un ingeniero en sistemas con una experiencia de más de 3 años en el desarrollo de aplicaciones web. Mi formación académica, combinada con estos años de trabajo práctico, me ha permitido ayudar a diversas empresas a construir una identidad digital que transmita confianza y visibilidad. Con ese propósito en mente, fundé Idicr, una marca enfocada en ofrecer soluciones digitales que responden a las necesidades actuales de las empresas.
 
 ## Innovación y mejora continua
 
