@@ -2,10 +2,11 @@
 title: 'Desarrollo del Sitio Web de EcoCarga'
 description: El sitio web de EcoCarga ha sido diseñado con un enfoque claro en destacar los valores fundamentales de la empresa, eficiencia, sostenibilidad y servicio personalizado.
 publishDate: 'Jan 02 2024'
+isFeatured: true
 seo:
   image:
-    src: '#'
-    alt: Project preview
+    src: '/Aga/ecocarga.webp'
+    alt: Sitio web de EcoCarga empresa de transporte y mudanzas
 ---
 
 [![Project preview](/Aga/ecocarga.webp)](https://mce19.github.io/trasporte_mudanza/)

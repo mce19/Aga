@@ -5,7 +5,8 @@ publishDate: 'Aug 26 2024'
 isFeatured: true
 seo:
   image:
-    src: '/Aga/project-7.jpg'
+    src: '/Aga/exploremoscolombiacostarica.webp'
+    alt: Sitio web de Exploremos Colombia Costa Rica agencia de viajes
 ---
 
 [![Project preview](/Aga/exploremoscolombiacostarica.webp)](https://exploremoscolombiacostarica.com/)

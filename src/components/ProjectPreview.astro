@@ -5,20 +5,42 @@ import ArrowRight from '../icons/ArrowRight.astro';
 type Props = { project: CollectionEntry<'projects'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { project, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, description } = project.data;
+const { title, description, seo } = project.data;
 const TitleTag = headingLevel;
+const image = seo?.image;
 ---
 
-<a class:list={['flex justify-between items-start gap-8 group', className]} href={`/Aga/projects/${project.slug}/`}>
-    <div class="grow">
-        <TitleTag
-            class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
-        >
+<a
+    class:list={['group flex flex-col sm:flex-row gap-4 sm:gap-6 items-start rounded-2xl border border-main/10 overflow-hidden hover:border-main/30 transition-all duration-300 hover:shadow-md bg-muted/40', className]}
+    href={`/Aga/projects/${project.slug}/`}
+>
+    <!-- Image -->
+    {image?.src && image.src !== '#' ? (
+        <div class="w-full sm:w-44 md:w-52 shrink-0 aspect-video sm:aspect-square overflow-hidden bg-muted">
+            <img
+                src={image.src}
+                alt={image.alt || title}
+                class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
+            />
+        </div>
+    ) : (
+        <div class="w-full sm:w-44 md:w-52 shrink-0 aspect-video sm:aspect-square bg-muted flex items-center justify-center text-4xl font-serif font-bold text-main/20">
+            W
+        </div>
+    )}
+
+    <!-- Content -->
+    <div class="flex flex-col justify-center gap-2 p-4 sm:py-4 sm:pl-0 sm:pr-5 grow">
+        <TitleTag class="text-lg leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl">
             {title}
         </TitleTag>
-        {description && <div class="mt-1 text-sm leading-normal">{description}</div>}
-    </div>
-    <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-        Ver proyecto <ArrowRight class="fill-current w-4 h-4" />
+        {description && (
+            <p class="text-sm leading-relaxed opacity-70 line-clamp-3">{description}</p>
+        )}
+        <span class="inline-flex items-center gap-1 text-sm font-serif italic opacity-0 group-hover:opacity-100 transition-opacity mt-1">
+            Ver proyecto <ArrowRight class="fill-current w-4 h-4" />
+        </span>
     </div>
 </a>

@@ -101,7 +101,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Construyendo tu identidad digital',
-        text: "**Webstudio**, te ayuda a construir una identidad digital sólida y profesional. Mi meta es mejorar tu presencia en Google, construyendo una aplicacion web que destaque a tu empresa como un referente en tu comunidad. Descubre cómo puedo ayudarte a construir una identidad digital sólida que genere confianza en tus clientes. Explora mis proyectos para ver cómo podemos lograrlo juntos."
+        text: "**¿Tu negocio no aparece en Google?** Creo páginas web rápidas, profesionales y optimizadas para posicionarte en Costa Rica — para que tus clientes te encuentren antes que a tu competencia."
         ,
         image: {
             src: '/Aga/Idicr-paginas-web-costa-rica.webp',

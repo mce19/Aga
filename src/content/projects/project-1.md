@@ -2,10 +2,11 @@
 title: 'Fundación Luz Divina - Plataforma Digital'
 description: La Fundación Arbolitos de Felicidad Luz Divina ofrece un entorno de amor y apoyo para niños y adolescentes. El sitio web fue diseñado para mostrar esta esencia, resaltando sus actividades diarias, momentos felices y el trabajo que realiza la Fundación para fortalecer los valores en los niños.
 publishDate: 'Jan 02 2024'
+isFeatured: true
 seo:
   image:
-    src: '/Aga/project-1.jpg'
-    alt: Project preview
+    src: '/Aga/arbolitosluzdivina.webp'
+    alt: Plataforma digital Fundación Arbolitos de Felicidad Luz Divina
 ---
 
 [![Project preview](/Aga/arbolitosluzdivina.webp)](http://arbolitosluzdivina.somee.com/)
