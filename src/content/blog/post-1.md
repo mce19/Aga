@@ -1,6 +1,6 @@
 ---
 title: No tienes capital para SEO, aplica estos consejos
-excerpt: In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes.
+excerpt: Tener una página web no garantiza visitas automáticas. Si no tienes presupuesto para una agencia de SEO, aquí te explicamos cómo promocionar tu sitio en Costa Rica usando estrategias gratuitas y de bajo costo que realmente funcionan en 2026.
 publishDate: 'Aug 5 2023'
 tags:
   - SEO

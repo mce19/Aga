@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Idicr',
+    title: 'Webstudio',
     subtitle: 'Construyendo Presencia y Confianza en la Web',
-    description: 'Idicr, Especialista en desarrollo de aplicaciones web',
+    description: 'Webstudio, Especialista en desarrollo de aplicaciones web',
     image: {
         src: '/Aga/Idicr-paginas-web-costa-rica.webp',
-        alt: 'Idicr - Desarrollo de aplicaciones web'
+        alt: 'Webstudio - Desarrollo de aplicaciones web'
     },
     headerNavLinks: [
         {
@@ -83,25 +83,29 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Facebook',
+            href: 'https://www.facebook.com/webcrstudio'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/webcrstudio'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'TikTok',
+            href: 'https://www.tiktok.com/@webcrstudio'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/company/webcrstudio'
         }
     ],
     hero: {
         title: 'Construyendo tu identidad digital',
-        text: "**Idicr**, te ayuda a construir una identidad digital sólida y profesional. Mi meta es mejorar tu presencia en Google, construyendo una aplicacion web que destaque a tu empresa como un referente en tu comunidad. Descubre cómo puedo ayudarte a construir una identidad digital sólida que genere confianza en tus clientes. Explora mis proyectos para ver cómo podemos lograrlo juntos."
+        text: "**Webstudio**, te ayuda a construir una identidad digital sólida y profesional. Mi meta es mejorar tu presencia en Google, construyendo una aplicacion web que destaque a tu empresa como un referente en tu comunidad. Descubre cómo puedo ayudarte a construir una identidad digital sólida que genere confianza en tus clientes. Explora mis proyectos para ver cómo podemos lograrlo juntos."
         ,
         image: {
             src: '/Aga/Idicr-paginas-web-costa-rica.webp',
-            alt: 'Maykol Castro O. Fundador y Seo de Idicr'
+            alt: 'Maykol Castro O. Fundador y CEO de Webstudio'
         },
         actions: [
             {
@@ -111,8 +115,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Fortalece Tu Identidad Digital con IDICR',
-        text: 'No dejes pasar la oportunidad de elevar tu marca. Dale a tu empresa una identidad digital sòlida con Idicr.',
+        title: 'Fortalece Tu Identidad Digital con Webstudio',
+        text: 'No dejes pasar la oportunidad de elevar tu marca. Dale a tu empresa una identidad digital sólida con Webstudio.',
         formUrl: '#'
     },
     postsPerPage: 8,

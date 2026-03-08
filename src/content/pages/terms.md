@@ -2,7 +2,7 @@
 title: Términos de servicios
 seo:
   title: Terminos de servicios
-  description: Conoce los términos y condiciones de Idicr para una comprensión clara de nuestras directrices y responsabilidades.
+  description: Conoce los términos y condiciones de Webstudio para una comprensión clara de nuestras directrices y responsabilidades.
 ---
 
 **1. Aceptación de los términos**
@@ -19,7 +19,7 @@ Te comprometes a utilizar el Sitio Web para fines legales y de manera que sea co
 
 **5. Propiedad intelectual**
 
-El contenido del Sitio Web, incluyendo texto, gráficos, logotipos, imágenes, audio, video, software y otros materiales, es propiedad de [Nombre de la Empresa] o está licenciado por nosotros y está protegido por leyes de propiedad intelectual. No puedes usar, reproducir ni distribuir el contenido sin nuestro consentimiento por escrito previo.
+El contenido del Sitio Web, incluyendo texto, gráficos, logotipos, imágenes, audio, video, software y otros materiales, es propiedad de Webstudio o está licenciado por nosotros y está protegido por leyes de propiedad intelectual. No puedes usar, reproducir ni distribuir el contenido sin nuestro consentimiento por escrito previo.
 
 **6. Enlaces a terceros**
 

@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://mce19.github.io',
+    site: 'https://webcrstudio.com',
     base: 'Aga',
     integrations: [
         mdx(),
